@@ -1,0 +1,15 @@
+class: Desserts
+
+Attrubutes:
+
+has_gluten = true - Boolean
+dessert_type = [ "pudding", "pie", "ice cream" ] - array
+price = 9.99 # dollars - float
+serving_size = 9 # oz - integer
+
+Methods:
+
+make_gluten_free (set has_gluten to false)
+choose_dessert_type (pulls element from the dessert_type array)
+combo_discount_price (reduce price)
+choose_serving_size ( modifies serving_size integer)
