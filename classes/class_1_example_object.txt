@@ -1,0 +1,15 @@
+Instance: Coca-Cola
+
+Attrubutes:
+
+has_alcohol = false
+drink_type = soda
+price = 5.99
+drink_size = 12
+
+Methods:
+
+add_alcohol - false has_alcohol remains the same
+choose_drink_type - pulls "soda" from drink_type array
+discount_price - reduces price to 5.99
+choose_drink_size - increases drink_size to 12
