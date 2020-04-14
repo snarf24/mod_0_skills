@@ -1,0 +1,15 @@
+class: Cherry Pie
+
+Attrubutes:
+
+has_gluten = true
+dessert_type = pie
+price = 7.99
+serving_size = 12
+
+Methods:
+
+make_gluten_free (false no change to has_gluten)
+choose_dessert_type (pulls "pie" from dessert_type array)
+combo_discount_price (reduce price to 7.99)
+choose_serving_size ( increase serving_size to 12)
