@@ -3,7 +3,7 @@ class: Drinks
 Attrubutes:
 
 has_alcohol = false - Boolean
-drink_type = [ soda, juice, mixed, tea ] - array
+drink_type = [ "soda", "juice", "mixed", "tea" ] - array
 price = 9.99 # dollars - float
 drink_size = 9 # oz - integer
 
