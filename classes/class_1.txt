@@ -1,0 +1,15 @@
+class: Drinks
+
+Attrubutes:
+
+has_alcohol = false - Boolean
+drink_type = [ soda, juice, mixed, tea ] - array
+price = 9.99 # dollars - float
+drink_size = 9 # oz - integer
+
+Methods:
+
+add_alcohol (set has_alcohol to true)
+choose_drink_type (pulls element from the drink_type array)
+discount_price (reduce price)
+choose_drink_size ( modifies drink_size integer)
